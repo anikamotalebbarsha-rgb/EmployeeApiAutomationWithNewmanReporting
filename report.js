@@ -5,6 +5,7 @@ newman.run({
     // past collection url 
     
     collection:`SQALOGY_B3_EmployeeApiiiii.postman_collection.json`,
+    // environment 
     reporters: 'htmlextra',
     iterationCount: 1,
     reporter: {
